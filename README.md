@@ -8,7 +8,7 @@ This repository contains the code, data, and models for our paper:
 
 We propose a novel graph-based framework for cancer driver gene prediction, leveraging multi-omics features, biological pathways, and gene expression–derived coexpression graphs. Our method integrates heterogeneous biological signals into a Graph Neural Network (GNN) and applies a two-stage pretraining strategy to improve generalization.
 <p align="center">
-  <img src="Pipeline.png" alt="Model Architecture" width="800"/>
+  <img src="pipeline.png" alt="Model Architecture" width="800"/>
 </p>
 
 The pipeline consists of:
