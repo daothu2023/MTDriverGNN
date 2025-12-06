@@ -2,7 +2,7 @@
 
 This repository contains the code, data, and models for our paper:
 
-**“Multitask Learning Graph Neural Network for Cancer Driver Gene Prioritization”**  
+**“MTDriverGNN: Multitask Learning Graph Neural Network for Cancer Driver Gene Prioritization”**  
 
 ##  Overview
 
