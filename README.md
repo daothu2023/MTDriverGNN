@@ -22,10 +22,10 @@ Although not shown in the figure, we also introduce a cancer-agnostic pretrainin
 
 ##  Key Features
 
-- Multi-omics feature integration (mutation, expression, methylation, CNA)  
-- Pathway-based node features from KEGG  
-- Cancer-type–specific graph construction using gene coexpression data derived from TCGA expression profiles  
-- Stage pretraining: cross-disease supervised pretraining strategy
+- Integrated multi-omics gene representation (Combines mutation, expression, methylation, CNA features with KEGG pathway annotations)  
+- Telomere-aware multitask learning 
+- Stage pretraining: Cross-disease supervised pretraining
+- Robust evaluation across cancers and metrics
  
 
 ##  Repository Structure
