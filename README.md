@@ -29,13 +29,20 @@ Although not shown in the figure, we also introduce a cancer-agnostic pretrainin
  
 
 ##  Repository Structure
-data/ – Directory containing preprocessed input datasets used for model training
+Data/ – Directory containing preprocessed input datasets used for model training
 
 Supplementary.pdf – Supplementary document detailing methodology and results
 
-gcn_no_pretrain.ipynb – Jupyter notebook for training the GCN model without pretraining
+Results/
+- Directory containing the output results of the proposed model.
+- Includes gene ranking files for:
+  - BRCA (Breast Invasive Carcinoma)
+  - PRAD (Prostate Adenocarcinoma)
+- Each file lists genes ranked by their predicted disease relevance scores.
 
-gcn_pretrain_finetune.ipynb – Jupyter notebook for training the GCN model with pretraining and fine-tuning
+Source/
+- Directory containing the source code of the proposed framework.
+- Includes scripts for data preprocessing, model implementation, training, and evaluation.
 
 README.md – Project overview and usage instructions
 
