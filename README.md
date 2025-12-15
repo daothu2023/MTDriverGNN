@@ -35,9 +35,7 @@ Supplementary.pdf – Supplementary document detailing methodology and results
 
 Results/
 - Directory containing the output results of the proposed model.
-- Includes gene ranking files for:
-  - BRCA (Breast Invasive Carcinoma)
-  - PRAD (Prostate Adenocarcinoma)
+- Includes gene ranking files for: BRCA, PRAD
 - Each file lists genes ranked by their predicted disease relevance scores.
 
 Source/
