@@ -47,11 +47,11 @@ class TrainConfig:
     pretrain_lr: float = 1e-2
 
     # Search space
-    depth_options: Tuple[int, ...] = (1, 2)
-    hidden_options: Tuple[Tuple[int, int], ...] = ((64, 64), (64, 128), (128, 64), (128, 128))
-    dropout_options: Tuple[float, ...] = (0.3, 0.4, 0.5)
-    lr_options: Tuple[float, ...] = (1e-2, 3e-3, 1e-3)
-    weight_decay_options: Tuple[float, ...] = (1e-4, 5e-4, 1e-3)
+    depth_options: Tuple[int, ...] = (2,)
+    hidden_options: Tuple[Tuple[int, int], ...] = ((64, 128),)
+    dropout_options: Tuple[float, ...] = (0.5,)
+    lr_options: Tuple[float, ...] = (1e-2,)
+    weight_decay_options: Tuple[float, ...] = (5e-4,)
 
     # IO
     base_dir: str = "./Data"
